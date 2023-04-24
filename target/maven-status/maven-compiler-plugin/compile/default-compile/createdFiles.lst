@@ -1,0 +1,10 @@
+lector\EstadoDeLosPartidos.class
+lector\Aplicacion.class
+lector\Pronostico.class
+lector\Resultados.class
+lector\Equipo.class
+lector\Partido.class
+lector\LectorPronosticosSQL.class
+conexion\SQL\ConectorSQL.class
+lector\Lectura.class
+lector\Ronda.class
