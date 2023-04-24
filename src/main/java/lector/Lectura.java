@@ -20,6 +20,7 @@ public class Lectura
 	    }		
 		return grabarDatos;
 	}
+	
 	//Metodo para guardar las lineas en un Array.
 	public static List<String> conseguirDatosDeLinea(String linea) 
 	{
