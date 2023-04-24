@@ -13,7 +13,16 @@ public class Pronostico
 	//public Equipo equipoGanador;  //Tal ves..
 	public EstadoDeLosPartidos resultadoReal;
 	
-	public Pronostico(int nIdEquipo1P, int nIdEquipo2P, String nGana1P, String nGana2P, String nEmpataP, Partido nuevoPartido, EstadoDeLosPartidos nResultadoReal)
+	public Pronostico(int equipo1IdP, int equipo2IdP, String gana1P, String gana2P, String empataP) {
+		this.equipo1IdP = equipo1IdP;		
+		this.equipo2IdP = equipo2IdP;
+		this.gana1P     = gana1P;
+		this.gana2P     = gana2P;
+		this.empataP    = empataP;
+	}
+	
+	
+	public Pronostico(int nIdEquipo1P, int nIdEquipo2P, String nGana1P, String nEmpataP,String nGana2P, Partido nuevoPartido, EstadoDeLosPartidos nResultadoReal)
 	{
 		equipo1IdP = nIdEquipo1P;
 		equipo2IdP = nIdEquipo2P;
@@ -21,18 +30,20 @@ public class Pronostico
 		gana2P = nGana2P;
 		empataP = nEmpataP;
 		
+		
 		partidoReal = nuevoPartido;
 		//equipoGanador = nEquipoGanador; //Tal ves..
 		resultadoReal = nResultadoReal;	
 		//Print
 		System.out.println("Pronostico creado");
-		System.out.println("	Id Equipo1: " + getEquipo1IdP());
-		System.out.println("	Id Equipo2: " + getEquipo2IdP());
+		System.out.println("	Id Equipo1:   " + getEquipo1IdP());
+		System.out.println("	Id Equipo2:   " + getEquipo2IdP());
 		System.out.println("	Gana Equipo1: " + gana1P);
 		System.out.println("	Gana Equipo2: " + gana2P);
-		System.out.println("	Empatan: " + empataP);
-		System.out.println("	PartidoId: " + partidoReal.getPartidoId());
+		System.out.println("	Empatan:      " + empataP);
+		System.out.println("	PartidoId:    " + partidoReal.getPartidoId());
 		
+				
 		if (empataP.equals("x"))
 		{
 			System.out.println("	Resultado Real: Empate ");
@@ -44,7 +55,7 @@ public class Pronostico
 				System.out.println(" +1 punto");
 			}
 		}
-
+				
 		if(gana1P.equals("x"))
 		{
 			if(resultadoReal.getGanador().getId() == getEquipo1IdP())
@@ -68,6 +79,7 @@ public class Pronostico
 		System.out.println(" ");
 	}
 
+		
 	public int getEquipo1IdP() {
 		return equipo1IdP;
 	}
@@ -125,10 +137,17 @@ public class Pronostico
 	}
 
 	public int getPuntos() {
-		return puntos;
+		return this.puntos;
 	}
 
 	public void setPuntos(int puntos) {
 		this.puntos = puntos;
 	}
+
+	@Override
+	public String toString() {
+		return "Pronostico [equipo1IdP=" + equipo1IdP + ", equipo2IdP=" + equipo2IdP + ", gana1P=" + gana1P
+				+ ", gana2P=" + gana2P + ", empataP=" + empataP + "]";
+	}
+	
 }
