@@ -1,0 +1,57 @@
+idpronosticos,participante,equipo1,equipo2,gana1,gana2,empata
+1,Mariana,Argentina,Francia,x,,
+2,Mariana,"Arabia Saudita",Chile,x,,
+3,Mariana,Polonia,Brazil,,,x
+4,Mariana,Mexico,Inglaterra,x,,
+5,Mariana,Argentina,Chile,x,,
+6,Mariana,Francia,"Arabia Saudita",,x,
+7,Mariana,Polonia,Inglaterra,,,x
+8,Mariana,Brazil,Mexico,,,x
+9,Mariana,Argentina,"Arabia Saudita",x,,
+10,Mariana,Polonia,Mexico,x,,
+11,Mariana,Argentina,Mexico,x,,
+12,Mariana,"Arabia Saudita",Polonia,x,,
+13,Mariana,Argentina,Polonia,x,,
+14,Mariana,Polonia,Argentina,,x,
+15,Pedro,Argentina,Francia,x,,
+16,Pedro,"Arabia Saudita",Chile,x,,
+17,Pedro,Polonia,Brazil,,,x
+18,Pedro,Mexico,Inglaterra,x,,
+19,Pedro,Argentina,Chile,,,x
+20,Pedro,Francia,"Arabia Saudita",x,,
+21,Pedro,Polonia,Inglaterra,,,x
+22,Pedro,Brazil,Mexico,,,x
+23,Pedro,Argentina,"Arabia Saudita",x,,
+24,Pedro,Polonia,Mexico,,x,
+25,Pedro,Argentina,Mexico,x,,
+26,Pedro,"Arabia Saudita",Polonia,x,,
+27,Pedro,Argentina,Polonia,,,x
+28,Pedro,Polonia,Argentina,,x,
+29,Juan,Argentina,Francia,x,,
+30,Juan,"Arabia Saudita",Chile,x,,
+31,Juan,Polonia,Brazil,,,x
+32,Juan,Mexico,Inglaterra,x,,
+33,Juan,Argentina,Chile,x,,
+34,Juan,Francia,"Arabia Saudita",,x,
+35,Juan,Polonia,Inglaterra,,,x
+36,Juan,Brazil,Mexico,,,x
+37,Juan,Argentina,"Arabia Saudita",x,,
+38,Juan,Polonia,Mexico,,,x
+39,Juan,Argentina,Mexico,x,,
+40,Juan,"Arabia Saudita",Polonia,,x,
+41,Juan,Argentina,Polonia,,,x
+42,Juan,Polonia,Argentina,,x,
+43,Marcos,Argentina,Francia,x,,
+44,Marcos,"Arabia Saudita",Chile,,x,
+45,Marcos,Polonia,Brazil,,x,
+46,Marcos,Mexico,Inglaterra,x,,
+47,Marcos,Argentina,Chile,x,,
+48,Marcos,Francia,"Arabia Saudita",,x,
+49,Marcos,Polonia,Inglaterra,x,,
+50,Marcos,Brazil,Mexico,x,,
+51,Marcos,Argentina,"Arabia Saudita",x,,
+52,Marcos,Polonia,Mexico,x,,
+53,Marcos,Argentina,Mexico,x,,
+54,Marcos,"Arabia Saudita",Polonia,,x,
+55,Marcos,Argentina,Polonia,x,,
+56,Marcos,Polonia,Argentina,,x,

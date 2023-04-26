@@ -1,3 +1,15 @@
-﻿Equipo1-id;Equipo1-nombre;Equipo1-descripcion;Equipo1-cantidad;Equipo2-cantidad;Equipo2-id;Equipo2-nombre;Equipo2-descripcion
-1;Argentina;Seleccionado;3;2;2;Arabia Saudita;Seleccionado
-3;Polonia;Seleccionado;0;0;4;Mexico;Seleccionado
+idresultados,fase,ronda,equipo1,equipo2,cantgoles1,cantgoles2
+1,1,1,Argentina,Francia,1,0
+2,1,1,"Arabia Saudita",Chile,2,1
+3,1,1,Polonia,Brazil,1,1
+4,1,1,Mexico,Inglaterra,1,0
+5,1,2,Argentina,Chile,2,0
+6,1,2,Francia,"Arabia Saudita",0,2
+7,1,2,Polonia,Inglaterra,1,1
+8,1,2,Brazil,Mexico,1,1
+9,2,1,Argentina,"Arabia Saudita",3,1
+10,2,1,Polonia,Mexico,0,0
+11,2,2,Argentina,Mexico,2,0
+12,2,2,"Arabia Saudita",Polonia,0,2
+13,3,1,Argentina,Polonia,2,2
+14,3,2,Polonia,Argentina,2,4
